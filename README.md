@@ -1,39 +1,51 @@
-# HUSTL – Campus Marketplace
+# HUSTL — Campus Gigs and Micro-Tasks Marketplace
 
-HUSTL is a campus marketplace designed to help students discover,
-buy, and sell products within their university community.
+HUSTL is a campus-focused platform designed to connect university students through gigs, micro-tasks, and skill-based opportunities. It aims to help students discover opportunities, offer their skills, and collaborate within their campus community.
 
-The platform aims to make campus transactions more convenient by
-providing students with a centralized place to connect with other
-students and explore available products.
+## Problem Statement
 
-## Features
+Students often struggle to find small, flexible opportunities to earn, apply their skills, or receive help with everyday tasks. These opportunities are frequently scattered across informal communication channels, making them difficult to discover and manage.
 
-- Campus-focused marketplace
-- Product browsing and discovery
-- Student-to-student buying and selling
-- Simple and accessible user interface
-- Web deployment through Netlify
+HUSTL aims to provide a centralised platform where students can discover and participate in campus-related gigs and micro-tasks.
 
-## Technologies Used
+## Key Features
 
-- HTML
-- CSS
-- JavaScript
-- Supabase
-- Netlify
-- GitHub
+- **Gig Discovery:** Explore available campus gigs and micro-tasks.
+- **Student Opportunities:** Connect students offering skills with those seeking assistance.
+- **Campus Community:** Support collaboration and interaction among students.
+- **Saved Gigs:** Save opportunities for future reference.
+- **Applications and Communication:** Support gig applications and student interactions.
+- **Notifications:** Keep users informed about relevant activities.
 
-## Getting Started
+*Feature availability depends on the current application implementation and backend configuration.*
 
-### Prerequisites
+## Technology Stack
 
-- A modern web browser
-- A code editor, such as Visual Studio Code
+- **Frontend:** React, TypeScript
+- **Build Tool:** Vite
+- **Backend and Database:** Supabase, PostgreSQL
+- **Styling:** CSS and component-based UI
+- **Deployment Configuration:** Netlify
+- **Version Control:** Git and GitHub
 
-### Run Locally
+## Project Structure
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/hk816/HUSTL-Campus-Marketplace.git
+```text
+HUSTL-Campus-Marketplace/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── supabase/
+│   └── migrations/
+├── assets/
+├── package.json
+├── package-lock.json
+├── netlify.toml
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
